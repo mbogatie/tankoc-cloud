@@ -139,7 +139,8 @@ As of 13 November 2026:
 
 - The character-data API and MCP worker already exist.
 - The inspected MCP implementation currently exposes the character-sheet retrieval tool.
-- ForeverDB game-data integration is the next practical development step, after its API details are verified.
+- The first read-only ForeverDB item-search and item-detail tools have been drafted in the private MCP repository on `feature/foreverdb-items`; see [draft pull request #1](https://github.com/mbogatie/tankoc-mcp/pull/1). They are not deployed or authenticated-tested yet.
+- The ForeverDB item tools still need the `FOREVERDB_API_KEY` Worker secret, authenticated testing and deployment.
 - No local combat-log companion or encounter-analysis engine has been built.
 - Screen-based live coaching remains a future research item.
 
